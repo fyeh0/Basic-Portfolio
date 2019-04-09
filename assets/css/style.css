@@ -1,13 +1,30 @@
-.container {
+body {
+}
+
+.navbar {
+    top: 0px;
+    position: absolute;
+    color: white;
+    width: 100%;
+}
+
+.navguide {
+    margin-left: auto;
+    margin-right: auto;
     width: 960px;
 }
 
-header {
-    background-color: #ffffff;
+h1 {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
     padding: 20px;
+    width: 90px;
+    margin-top: 0px;
+    margin-left
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #777;  
+.container {
+    margin-top:
+    border:
+    
 }
