@@ -1,4 +1,8 @@
-body {
+header,
+navbar,
+links,
+h1 {
+    padding: 20px;
 }
 
 .header {
@@ -31,10 +35,21 @@ h1 {
 
 .container {
     margin-top: 200px;
-    border: 
+    clear: both;
+    display: block;
 }
 
 h2 {
     background-color: #ffffff
+}
 
+.footer {
+    position: sticky;
+    text-align: center;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: 0;
+    padding: 20px;
+    background:#666;
+    color: #777777;
 }
