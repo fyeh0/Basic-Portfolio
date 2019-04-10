@@ -1,17 +1,23 @@
 body {
 }
 
-.navbar {
+.header {
     top: 0px;
     position: absolute;
     color: white;
     width: 100%;
 }
 
-.navguide {
+.navbar {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
+}
+
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    float: right;
 }
 
 h1 {
@@ -20,11 +26,15 @@ h1 {
     padding: 20px;
     width: 90px;
     margin-top: 0px;
-    margin-left
+    margin-left: 
 }
 
 .container {
-    margin-top:
-    border:
-    
+    margin-top: 200px;
+    border: 
+}
+
+h2 {
+    background-color: #ffffff
+
 }
