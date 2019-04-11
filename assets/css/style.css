@@ -57,10 +57,6 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.body-text {
-    word-wrap: ;
-}
-
 .footer {
     position: fixed;
     text-align: center;
