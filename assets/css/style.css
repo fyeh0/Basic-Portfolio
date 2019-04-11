@@ -1,27 +1,29 @@
-header,
-navbar,
-links,
-h1 {
-    padding: 20px;
+body {
+    background-image: url("/assets/images/ep_naturalwhite.png");
 }
 
 .header {
     top: 0px;
-    position: absolute;
-    color: white;
+    margin: 0px;
+    color: white;  
+    background: white;
     width: 100%;
+    position: fixed;
+    left: 0px;
 }
 
 .navbar {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
+    top: 0;
 }
 
 .links {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     float: right;
+    margin-top: -55px;
 }
 
 h1 {
@@ -37,19 +39,42 @@ h1 {
     margin-top: 200px;
     clear: both;
     display: block;
+    width: 960px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    background: #ffffff;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    background-color: #ffffff
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body-text {
+    word-wrap: ;
 }
 
 .footer {
-    position: sticky;
+    position: fixed;
     text-align: center;
     width: 100%;
+    bottom: 0px;
     border-top: 8px solid #4aaaa5;
-    flex-shrink: 0;
-    padding: 20px;
-    background:#666;
+    padding: 18px;
+    background:#666666;
     color: #777777;
+    left: 0px;
+}
+
+#image {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 18px;
 }
